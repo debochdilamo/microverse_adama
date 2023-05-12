@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-    <style>
-        body {
-            background-color: rgb(88, 75, 104);
-        }
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a target="_blank" href="#welcome-section">About</a></li>
+        <li><a target="_blank" href="#projects">Work</a></li>
+        <li><a target="_blank" href="#contact">Contact</a></li>
+      </ul>
 
-        mediaquery {
-            @media (max-width: 800px) {
-                body {
-                    background-color: lightblue;
-                }
-            }
-        }
+      <!-- <nav id="navbar">
+       
+        
+        
+      </nav> -->
+    </div>
 
-        #welcome-section {
-            height: 100vh;
-        }
-
-        #navbar {
-            position: static;
-            top: 0;
-        }
-    </style>
-</head>
-
-<body>
-    <nav id="navbar">
-        <a href="#welcome-section">About</a>
-        <a href="#projects">Work</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="welcome-section">
-        <h1>Hey I am Mimic</h1>
+    <div class="container">
+      <section id="welcome-section">
+        <h1 class="title">Hey I am Mimic</h1>
         <p>a web developer</p>
-    </section>
-    <section id="projects">
-        <h1 class="project-tile">These are some of my projects </h1>
-        <a href="/project1">Project One</a>
-    </section>
-    <section id="contact">
-        <h1>Let's work together...</h1>
-        <p>How do you take your coffee? </p>
-        <a href="https://github.com/debochdilamo" target=”_blank” id="profile-link">Github Account</a>
-    </section>
-</body>
-
+      </section>
+      <!-- <section id="projects">
+            <h1 class="project-tile">These are some of my projects</h1>
+            <a href="/project1">Project One</a>
+          </section>
+          <section id="contact">
+            <h1>Let's work together...</h1>
+            <p>How do you take your coffee?</p>
+            <a
+              href="https://github.com/debochdilamo"
+              target="”_blank”"
+              id="profile-link"
+              >Github Account</a
+            > -->
+      <!-- </section> -->
+    </div>
+  </body>
 </html>
